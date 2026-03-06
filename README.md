@@ -129,6 +129,16 @@ Open in browser: `https://jewish-holidays.local/holidays`
 
 > Note: The browser will show a certificate warning because we use a self-signed certificate. This is expected for local development. In production, you would use cert-manager with Let's Encrypt for trusted certificates.
 
+## External URL
+
+The application is accessible at: `https://jewish-holidays.local/holidays`
+
+> **Note:** Since this is deployed on a local Minikube cluster (Local Hyper-V option), the URL is only accessible on the machine where Minikube is running. To access it locally, the Minikube Ingress IP must be mapped in the hosts file:
+> ```
+> 192.168.55.251 jewish-holidays.local
+> ```
+> In a cloud deployment (EKS/AKS/GKE), the Ingress would receive a public IP or DNS name accessible from anywhere.
+
 ## API Endpoints
 
 | Endpoint | Method | Description |
