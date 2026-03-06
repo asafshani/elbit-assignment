@@ -1,0 +1,13 @@
+# Python environment and cache
+__pycache__/
+venv/
+.venv/
+*.py[cod]
+
+# Pulumi state and backups
+.pulumi/
+*.bak
+
+# Security: Ignore all certificates and private keys
+*.crt
+*.key

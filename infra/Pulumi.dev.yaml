@@ -1,0 +1,8 @@
+encryptionsalt: v1:zMYL6Wld5Ls=:v1:KHBa5KJtjiS9L6KI:3O+ENsyAe0UVWvszhs4zPEsM7Rk2eQ==
+config:
+  elbit-holidays:containerImage: jewish-holidays-app:1.0.0
+  elbit-holidays:apiKey:
+    secure: v1:vHBiuPw1T2INVJT5:JI9LUjQhoJ2QAecLSMEEx1tbSSUs31IACMhA4M+g5mDp/36rr7eQRDbAA5I=
+  elbit-holidays:memoryRequest: 128Mi
+  elbit-holidays:cpuRequest: 100m
+  elbit-holidays:replicas: "2"

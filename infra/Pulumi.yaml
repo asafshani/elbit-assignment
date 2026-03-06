@@ -1,0 +1,11 @@
+name: elbit-holidays
+description: Jewish Holidays K8s Deployment
+runtime:
+  name: python
+  options:
+    toolchain: pip
+    virtualenv: venv
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: kubernetes-python
