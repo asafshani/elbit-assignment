@@ -205,6 +205,4 @@ In a production environment, the following improvements would be made:
 - Use cert-manager with Let's Encrypt for trusted TLS certificates
 - Use an external secret manager (AWS Secrets Manager, Azure Key Vault)
 - Add Horizontal Pod Autoscaler (HPA) for automatic scaling
-- Set up monitoring with Prometheus and Grafana
 - Implement a CI/CD pipeline for automated deployments
-- Add network policies for pod-to-pod communication security
